@@ -308,6 +308,15 @@
   cursor: pointer;
   font: inherit;
 }
+.dark .field select option {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+.dark .field select optgroup {
+  color: var(--foreground);
+  font-weight: 700;
+  background-color: var(--background);
+}
 .field .chev {
   color: var(--muted-foreground);
   flex: none;
