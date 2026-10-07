@@ -314,7 +314,6 @@
 }
 .dark .field select optgroup {
   color: var(--foreground);
-  font-weight: 700;
   background-color: var(--background);
 }
 .field .chev {
